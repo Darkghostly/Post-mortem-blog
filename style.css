@@ -1,0 +1,39 @@
+body {
+background-color: #0a0a0a; /* Fundo escuro para o tema forense */
+}
+
+#post-mortems {
+    background-color: #0a0a0a; /* Fundo absoluto */
+    color: #e0e0e0;
+    padding: 4rem 5%;
+}
+
+.forensic-style {
+    border-left: 4px solid #007BFF; /* Linha de integridade lateral */
+    background: rgba(255, 255, 255, 0.03);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace; /* Fonte de sistema/log */
+    border-radius: 0 8px 8px 0;
+    transition: transform 0.3s ease;
+}
+
+.forensic-style:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(10px);
+}
+
+.forensic-style h3 {
+    color: #ff4b4b; /* Vermelho Alerta para o Incidente */
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.forensic-style span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #888;
+    font-weight: bold;
+}
